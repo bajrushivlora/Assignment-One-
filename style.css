@@ -11,44 +11,43 @@ body {
   width: 100vw;
   min-height: 100vh;
   background-color: black;
+  display: flex;
+  align-items: center;
 }
 
 .webadvanced {
   position: absolute;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .03vw;
   -webkit-text-stroke-color: white;
   font-size: 11vw;
   font-family: 'Archivo Black', sans-serif;
   top: 0px;
   left: 0px;
-  margin-top: 60px;
+  margin: 0;
 }
 
 .vlora {
   position: absolute;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .03vw;
   -webkit-text-stroke-color: white;
   font-size: 10vw;
   font-family: 'Archivo Black', sans-serif;
   bottom: 0px;
-  left: 0px;
-  margin-bottom: 35px;
+  margin: 0;
 }
 
-.library {
+.flex-container {
   position: relative;
-  width: 100vw;
-  height: 43vh;
-  margin-top: 31vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  align-content: flex-start;
   background-color: black;
-}
-
-.one, .two, .three, .four {
-  width: 25vw;
-  height: 43vh;
-  float: left;
+  height: 250px;
+  width: 100vw;
 }
 
 .one:hover, .two:hover, .three:hover, .four:hover {
@@ -56,27 +55,48 @@ body {
 }
 
 .one {
+  flex: 1 0;
+  height: 280px;
   background-color: #d24a9c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.two {    
+.two {   
+  flex: 1 0; 
+  height: 280px;
   background-color: #fbe43e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .three {
+  flex: 1 0;
+  height: 280px;
   background-color: #49c1c1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.four {
-  background-color: #8cef41;
-}
-
-.name {
+.div_text {
   position: absolute;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .07vw;
   -webkit-text-stroke-color: white;
-  font-size: 4.5vw;
+  font-size: 3vw;
   margin: 0 auto;
   font-family: 'Archivo Black', sans-serif;
+  text-decoration: none;
+}
+
+.div_text:hover {
+  position: absolute;
+  color: white;
+  font-size: 3vw;
+  margin: 0 auto;
+  font-family: 'Archivo Black', sans-serif;
+  text-decoration: none;
 }
