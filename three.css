@@ -13,7 +13,6 @@ html {
     background-color: #49c1c1;
   }
 
-
   .link {
     position: absolute;
     color: transparent;
@@ -27,6 +26,6 @@ html {
   
   .link:hover {
     transform: scale(1.2);
-    -webkit-text-stroke-color:  #fbe43e
+    -webkit-text-stroke-color:  #fbe43e;
   }
   
