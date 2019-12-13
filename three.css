@@ -12,3 +12,21 @@ html {
     min-height: 100vh;
     background-color: #49c1c1;
   }
+
+
+  .link {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 11vw;
+    font-family: 'Archivo Black', sans-serif;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    transform: scale(1.2);
+    -webkit-text-stroke-color:  #fbe43e
+  }
+  
